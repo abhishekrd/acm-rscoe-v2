@@ -5,22 +5,25 @@ nav {
     align-items: center;
     height: 80px;
     padding: 60px 100px;
-    .logo-container{
+
+    .logo-container {
         display: flex;
         align-items: center;
         justify-content: center;
-        p{
+
+        p {
             margin: 0;
             color: #0a5dcb;
             font-weight: bold;
             font-size: 25px;
         }
+
         .logo {
             width: 100px;
             height: 100px;
         }
     }
-    
+
     #navlist {
         ul {
             height: 100px;
@@ -28,31 +31,36 @@ nav {
             align-items: center;
             justify-content: center;
             margin: 0;
+
             .nav-items {
                 color: black;
                 list-style: none;
                 margin: 30px;
                 transition: 0.3s ease-in-out;
+
                 &:hover {
                     color: #0a5dcb;
                 }
-                
+
             }
-            .active{
+
+            .active {
                 color: #0a5dcb;
             }
-            .concept{
+
+            .concept {
                 font-size: 25px;
                 color: rgb(0, 0, 0);
-                &:hover{
-                    color:#0a5dcb;
+
+                &:hover {
+                    color: #0a5dcb;
                 }
             }
         }
 
         #mobile {
             display: none;
-            
+
         }
 
         @media screen and (max-width:770px) {
@@ -76,10 +84,12 @@ nav {
                     margin-bottom: 25px;
                 }
             }
+
             #navBar.active {
                 right: 0px;
-                top:132px;
+                top: 132px;
             }
+
             #mobile {
                 font-size: 30px;
                 display: block;

@@ -1,0 +1,74 @@
+.concept-home-img{
+    background-color: #e0e0e0;
+    .display-img{
+        width: 90%;
+        height: 90%;
+    }
+    
+}
+.concept-container {
+    background-color: #e0e0e0;
+    padding: 168px 0 168px 0;
+    text-align: center !important;
+
+    .title {
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        text-align: center !important;
+        margin-bottom: 70px;
+
+        hr {
+            margin: 15px;
+            width: 5%;
+            border-top: 6px dotted #011447;
+            margin: auto;
+        }
+    }
+    .concept-card{
+        width: 1200px;
+        margin: auto;
+        padding: 50px;
+        background-color: white;
+        text-align: left;
+        @media (max-width: 1200px) {
+            width: 900px;
+        }
+        @media (max-width: 900px) {
+            width: 700px;
+        }
+        @media (max-width: 700px) {
+            width: 550px;
+        }
+        @media (max-width: 550px) {
+            width: 400px;
+        }
+        @media (max-width: 400px) {
+            width: 370px;
+        }
+        .concept-title{
+            font-size: 32px;
+        }
+        .difficulty{
+            color: #6d6d6d;
+            font-size: 15px;
+            .lvl-easy{
+                color: #00b8a3;
+            }
+            .lvl-medium{
+                color: #fdc11d;
+            }
+            .lvl-hard{
+                color: #ff375f;
+            }
+        }
+        .concept-img{
+            width: 100%;
+            height: 100%;
+        }
+        .code{
+            width: 100%; 
+            height: 500px;
+        }
+    }
+    
+}

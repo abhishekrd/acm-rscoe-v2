@@ -1,0 +1,172 @@
+.blog-home-img {
+    text-align: center;
+    background-color: #e7e7f0;
+
+    .display-img {
+        width: 85%;
+        height: 85%;
+    }
+}
+
+.concept-of-day {
+    background-color: #e7e7f0;
+    padding: 80px 0 80px 0;
+
+    .concept-pop {
+        width: 450px;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        background-image: linear-gradient(-45deg, #b03ce2, #a33dfe, #e73c7e, #4e47ff, #23a6d5, #23d5ab);
+        animation: gradient 10s ease infinite;
+        background-size: 400% 400%;
+        border-radius: 25px;
+        .inside{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cod {
+            font-size: 35px;
+            font-family: 'Playfair Display', serif;
+            color: white;
+        }
+        .cod-check-button{
+            margin: 20px;
+            border-radius: 25px;
+            color: rgb(89, 0, 255);
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            margin: 100px 100;
+            width: 150px;
+            height: 45px;
+            transition: 0.3s ease-in-out;
+            background-image: linear-gradient(225deg, #ffffff, rgb(255, 255, 255));
+            box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+            &:hover {
+                cursor: pointer;
+                background-image: linear-gradient(225deg, #ffffff, rgb(255, 255, 255));
+            }
+        }
+        img {
+
+            width: 91px;
+            height: 100px;
+        }
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+
+.blogs {
+    padding: 0 100px 100px 100px;
+
+    .title {
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        text-align: center !important;
+        margin-bottom: 70px;
+
+        hr {
+            margin: 15px;
+            width: 5%;
+            border-top: 6px dotted #011447;
+            margin: auto;
+        }
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    background-color: #e7e7f0;
+
+
+    .blog-post {
+        padding: 0;
+        width: 350px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: white;
+        margin: 20px;
+        overflow: hidden;
+
+        .blog-img {
+            overflow: hidden;
+
+            img {
+
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                width: 354px;
+                height: 200px;
+                -webkit-transform: rotate(0) scale(1);
+                transform: rotate(0) scale(1);
+                -webkit-transition: .3s ease;
+                transition: .3s ease;
+                position: relative;
+
+                &:hover {
+                    cursor: pointer;
+                    -webkit-transform: rotate(3deg) scale(1.1);
+                    transform: rotate(3deg) scale(1.1);
+                }
+            }
+        }
+
+        .blog-title {
+            font-size: 18px;
+            padding: 30px 30px 0 30px;
+            font-family: 'Montserrat', sans-serif;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            font-weight: 600;
+        }
+
+        .author {
+            display: flex;
+            justify-content: flex-start;
+            padding: 20px 30px;
+            font-size: 14px;
+            font-weight: lighter;
+            font-family: 'Montserrat', sans-serif;
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            .author-info {
+                margin-left: 20px;
+
+                p {
+                    color: #717796;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+}

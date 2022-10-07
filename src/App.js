@@ -11,6 +11,10 @@ import PublicityTeam from "./pages/publicityTeam/PublicityTeam";
 import SocialTeam from "./pages/socialMediaTeam/SocialTeam";
 import WebTeam from "./pages/webTeam/WebTeam";
 import Cod from "./pages/concept-of-day/Cod";
+import SuccessBlog from "./pages/blogs/all-written-blogs/SuccessBlog";
+import TwitterBlog from "./pages/blogs/all-written-blogs/TwitterBlog";
+import DislikedBlog from "./pages/blogs/all-written-blogs/DislikedBlog";
+import GenderBlog from "./pages/blogs/all-written-blogs/GenderBlog";
 function App(){
   return (
     <div className="App">
@@ -28,6 +32,10 @@ function App(){
           <Route path="/social-team" element={<SocialTeam/>}></Route>
           <Route path="/web-team" element={<WebTeam/>}></Route>
           <Route path="/concept-of-day" element={<Cod/>}></Route>
+          <Route path="/success-blog" element={<SuccessBlog/>}></Route>
+          <Route path="/twitter-blog" element={<TwitterBlog/>}></Route>
+          <Route path="/disliked-blog" element={<DislikedBlog/>}></Route>
+          <Route path="/gender-blog" element={<GenderBlog/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,124 @@
+.home {
+    .front-page {
+        text-align: center;
+        background-color: #e0e0e0;
+        padding: 20px 20px 20px 20px;
+
+        .team-name {
+            left: 70px;
+            bottom: 20px;
+
+            h1 {
+                font-size: 90px;
+                font-family: Playfair Display, serif;
+                margin: 0;
+            }
+
+            span {
+                font-family: "Montserrat", sans-serif;
+                text-align: left;
+                font-size: 20px;
+                color: #000000;
+            }
+
+            .info {
+                text-align: center;
+                margin-bottom: 50px;
+                font-size: 20px;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 20px;
+                margin: 0;
+                font-family: "Montserrat", sans-serif;
+                text-align: left;
+                color: #002880;
+                box-sizing: border-box;
+
+                .border {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    margin-top: 5px;
+                    width: 300px;
+                    height: 65px;
+                    border-radius: 40px;
+                    background-image: linear-gradient(225deg, #3b20b6, rgb(37, 114, 255));
+                    box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+
+                    &:hover {
+                        cursor: pointer;
+                        background-image: linear-gradient(225deg, #471ff7, rgb(106, 157, 251));
+                    }
+
+                    .lead-icon {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin: 40px 10px 40px 10px;
+                        background-color: #002880;
+
+                        img {
+                            border-radius: 50%;
+                            width: 50px;
+                            height: 50px;
+                            width: 100%;
+                        }
+                    }
+
+                    span {
+                        color: white;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+                }
+
+            }
+
+        }
+
+        .container {
+            padding: 0px;
+
+            .homeImg {
+                width: 80%;
+            }
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 770px) {
+            .homeImg {
+                display: none;
+            }
+        }
+
+    }
+}
+
+.team-mem-card {
+    background-color: #e0e0e0;
+    padding: 168px 0 0 0;
+    text-align: center !important;
+
+    .title {
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        text-align: center !important;
+        margin-bottom: 70px;
+
+        hr {
+            margin: 15px;
+            width: 5%;
+            border-top: 6px dotted #011447;
+            margin: auto;
+        }
+    }
+}

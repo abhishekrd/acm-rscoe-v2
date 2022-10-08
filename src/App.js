@@ -15,6 +15,7 @@ import SuccessBlog from "./pages/blogs/all-written-blogs/SuccessBlog";
 import TwitterBlog from "./pages/blogs/all-written-blogs/TwitterBlog";
 import DislikedBlog from "./pages/blogs/all-written-blogs/DislikedBlog";
 import GenderBlog from "./pages/blogs/all-written-blogs/GenderBlog";
+import IndiaBlog from "./pages/blogs/all-written-blogs/IndiaBlog";
 function App(){
   return (
     <div className="App">
@@ -36,6 +37,7 @@ function App(){
           <Route path="/twitter-blog" element={<TwitterBlog/>}></Route>
           <Route path="/disliked-blog" element={<DislikedBlog/>}></Route>
           <Route path="/gender-blog" element={<GenderBlog/>}></Route>
+          <Route path="/india-blog" element={<IndiaBlog/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

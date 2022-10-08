@@ -20,7 +20,6 @@ const Blog = () => {
               <img src="./assets/concept-logo.png" alt="" />
             </div>
           </div>
-
         </div>
       </section>
       <section className="blogs">
@@ -69,7 +68,6 @@ const Blog = () => {
                 7 Oct 2022
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -90,7 +88,6 @@ const Blog = () => {
                   7 Oct 2022
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -112,10 +109,30 @@ const Blog = () => {
                   7 Oct 2022
                 </p>
               </div>
-
             </div>
           </div>
 
+
+
+
+          {/* India 2047 */}
+          <div className="col-sm-12 col-md-6 col-lg-4 blog-post">
+            <div className="blog-img"> <img src="./assets/blog-images/india-blog-background.png" alt="img" /></div>
+            <div className="blog-title">
+              <Link to="/india-blog" style={{ textDecoration: "none" }}><p>India 2047</p></Link>
+            </div>
+            <div className="author">
+              <img className='author-img' src="./assets/teams/coreMembers/sahilk.jpg" alt="img" />
+              <div className="author-info">
+                <span>
+                  Sahil Kandhare
+                </span>
+                <p>
+                  8 Oct 2022
+                </p>
+              </div>
+            </div>
+          </div>
 
 
         </div>

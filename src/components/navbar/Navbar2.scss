@@ -1,0 +1,108 @@
+.navbar2 {
+    padding: 20px 30px 0 30px;
+    background-color: #00000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .social-icon {
+        display: flex;
+
+        .icons {
+            padding: 10px;
+            font-size: 25px;
+            color: white;
+            &:hover {
+                color:#b7b7b7 ; 
+                cursor: pointer;
+            }
+        }
+    }
+
+    .brand-name {
+        .brand{
+            padding: 0;
+            font-size: 50px;
+            color: white;
+            font-weight: 800px;
+            font-family: 'Playfair Display', serif;
+            &:hover
+            {
+                color:#b7b7b7 ; 
+            }
+        }
+        span{
+           color: #006aff;
+           &:hover{
+            color: #003682;
+           }
+        }
+    }
+
+    #feedback {
+        color: white;
+        span {
+            color: white;
+            &:hover {
+                color:#b7b7b7 ; 
+                cursor: pointer;
+            }
+        }
+    }
+    
+    #mobile{
+        display: none;
+        .icons {
+            padding: 10px;
+            font-size: 25px;
+            color: white;
+            &:hover {
+                color:#b7b7b7 ; 
+                cursor: pointer;
+            }
+        }
+    }
+    @media screen and (max-width:770px){
+        .brand-name {
+            .brand{
+                font-size: 40px;
+            }
+        }
+        .social-icon {
+            .icons {
+                font-size: 20px;
+            }
+        }
+        #feedback {  
+            display: none; 
+        }
+        #mobile{
+            display:block;
+            .icons {
+                font-size: 20px;
+            }
+        }
+    }
+    @media screen and (max-width:590px){
+        .brand-name {
+            .brand{
+                font-size: 30px;
+            }
+        }
+        .social-icon {
+            .icons {
+                padding: 5px;
+                font-size: 15px;
+            }
+        }
+        #feedback {  
+            display: none; 
+        }
+        #mobile{
+            display:block;
+            .icons {
+                padding: 5px;
+                font-size: 15px;
+            }
+        }
+    }
+}

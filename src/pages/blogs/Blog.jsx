@@ -48,7 +48,6 @@ const Blog = () => {
                   7 Oct 2022
                 </p>
               </div>
-
             </div>
           </div>
 

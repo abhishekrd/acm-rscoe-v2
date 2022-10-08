@@ -18,7 +18,6 @@ const WebTeam = () => {
             <img src="./assets/web-home.png" alt="home" className='homeImg' />
           </div>
         </section>
-
         <section className='team-mem-card'>
           <div className='title'>
             Team

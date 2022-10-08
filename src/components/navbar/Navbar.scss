@@ -60,7 +60,6 @@ nav {
 
         #mobile {
             display: none;
-
         }
 
         @media screen and (max-width:770px) {
@@ -77,7 +76,6 @@ nav {
                 background-color: rgb(255, 255, 255);
                 box-shadow: rgba(0, 0, 0, 0.1);
                 transition: 0.3s ease-in-out;
-
                 .nav-items {
                     font-size: 20px;
                     font-weight: 600;

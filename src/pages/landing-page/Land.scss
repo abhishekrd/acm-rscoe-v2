@@ -176,76 +176,79 @@
                 }
             }
         }
-
-        @media (max-width: 990px) {
-            .left-content {
-                text-align: center;
-                .head-line {
-                    #static {
-                        display: block;
-                    }
-                }
-            }
-
-            .right-content {
-                text-align: center;
-                display: none;
-            }
-
-            .dynamic-txt {
-                display: none;
-
-                li {
-                    position: static;
-                    display: none;
-
-                    span {
-                        display: none;
-                        margin: auto;
-                    }
+    }
+    @media (max-width: 990px) {
+        .Content {
+            padding: 30px;
+            align-items: center;
+        }
+        .left-content {
+            text-align: center;
+            .head-line {
+                #static {
+                    display: block;
                 }
             }
         }
 
-        @media (max-width: 590px) {
-            .dynamic-txt {
+        .right-content {
+            text-align: center;
+            display: none;
+        }
+
+        .dynamic-txt {
+            display: none;
+
+            li {
+                position: static;
                 display: none;
 
-                li {
+                span {
                     display: none;
-
-                    span {
-                        display: none;
-                        margin: auto;
-                    }
+                    margin: auto;
                 }
             }
+        }
+    }
 
-            .left-content {
-                margin-top: 40px;
-                text-align: center;
+    @media (max-width: 590px) {
+        .dynamic-txt {
+            display: none;
 
-                .head-line2 {
-                    font-weight: 400;
+            li {
+                display: none;
+
+                span {
+                    display: none;
+                    margin: auto;
+                }
+            }
+        }
+
+        .left-content {
+            margin-top: 40px;
+            text-align: center;
+
+            .head-line2 {
+                font-weight: 400;
+                font-size: 3rem;
+            }
+
+            .head-line {
+                font-family: 'Playfair Display', serif;
+                font-weight: 400;
+                font-size: 3rem;
+
+                #static {
                     font-size: 3rem;
-                }
-
-                .head-line {
-                    font-family: 'Playfair Display', serif;
-                    font-weight: 400;
-                    font-size: 3rem;
-
-                    #static {
-                        font-size: 3rem;
-                        display: block;
-                    }
+                    display: block;
                 }
             }
+        }
 
-            .Content {
-                align-items: center;
-            }
-
+        .Content {
+            padding: 30px;
+            align-items: center;
         }
     }
 

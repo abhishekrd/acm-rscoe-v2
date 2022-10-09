@@ -11,6 +11,7 @@ const WebTeam = () => {
           <div className='container'>
             <div className="team-name">
               <h1>WEB TEAM</h1>
+<<<<<<< HEAD
               <p className='info'>Web team is a group of persons responsible for development of our official Website.</p>
               <div className='team-card'>
                 <img className='lead-photo' src='./assets/teams/webteam/abhishekdhanke.png'></img>
@@ -22,6 +23,11 @@ const WebTeam = () => {
                   <a href='https://www.linkedin.com/in/abhishek-dhanke-226354216/'><i className="fa-brands fa-linkedin icons"></i></a>
                 </div>
               </div>
+=======
+              <p className='info'>Web team is a group of persons responsible for development of web site.</p>
+              <span>LEAD</span>
+              <p><a style={{ textDecoration: "none" }} href="https://github.com/abhishekrd" target="_blank"><div className='border'><div className='lead-icon'><img src="./assets/teams/webteam/abhishek-dhanke-head.png" alt="head-img" /></div> <span> Abhishek Dhanke</span></div> </a></p>
+>>>>>>> d6f3fe4e31910276e79a22dc668f578d3a008219
             </div>
             <img src="./assets/web-home.png" alt="home" className='homeImg' />
           </div>

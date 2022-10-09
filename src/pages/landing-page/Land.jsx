@@ -1,15 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./Land.scss"
 import Navbar from '../../components/navbar/Navbar'
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Footer from '../../components/footer/Footer'
 import { Link } from 'react-router-dom'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 const Land = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 })
-  }, []);
   return (
     <div className='home'>
       <Navbar />
@@ -43,12 +38,12 @@ const Land = () => {
 
       <section className="teams">
         <div className="container">
-          <div data-aos="zoom-in" className='title'>
+          <div className='title'>
             Our Teams
             <hr />
           </div>
           <div className='cardContainer'>
-            <div data-aos="zoom-in-up" className="row">
+            <div className="row">
               <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/content.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
@@ -104,13 +99,13 @@ const Land = () => {
 
       <section className="event">
         <div className="container">
-          <div data-aos="zoom-in" className='title'>
+          <div className='title'>
             Our Latest Works
             <hr />
           </div>
 
           {/* Ganesh-Event */}
-          <div data-aos="zoom-in-right" className='work-description'>
+          <div  className='work-description'>
             <div className="event-img">
               <video className='vid' autoPlay loop muted src="./assets/ganesh.mp4"></video>
             </div>
@@ -130,7 +125,7 @@ const Land = () => {
 
 
           {/* Eucation & Career */}
-          <div data-aos="zoom-in-left" className='work-description'>
+          <div className='work-description'>
             <div className="event-img">
               <div className='event-info'>
                 Eucation & Career
@@ -150,7 +145,7 @@ const Land = () => {
 
 
           {/* AR/VR */}
-          <div data-aos="zoom-in-right" className='work-description'>
+          <div className='work-description'>
             <div className="event-img">
               <video className='vid' autoPlay loop muted src="./assets/arVr.mp4"></video>
             </div>

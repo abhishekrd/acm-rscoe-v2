@@ -3,8 +3,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    padding: 60px 100px;
+    height: 40px;
+    padding: 50px 100px;
 
     .logo-container {
         display: flex;
@@ -35,8 +35,10 @@ nav {
             .nav-items {
                 color: black;
                 list-style: none;
-                margin: 30px;
+                margin: 30px ;
                 transition: 0.3s ease-in-out;
+                font-family: 'work sans', sans-serif;
+                letter-spacing: 0.05rem;
 
                 &:hover {
                     color: #0a5dcb;

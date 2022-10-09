@@ -11,9 +11,17 @@ const WebTeam = () => {
           <div className='container'>
             <div className="team-name">
               <h1>WEB TEAM</h1>
-              <p className='info'>Web team is a group of persons responsible for development of web site.</p>
-              <span>LEAD</span>
-              <p><a style={{ textDecoration: "none" }} href="https://github.com/abhishekrd" target="_blank"><div className='border'><div className='lead-icon'><img src="./assets/teams/webteam/abhishekdhanke.png" alt="head-img" /></div> <span> Abhishek Dhanke</span></div> </a></p>
+              <p className='info'>Web team is a group of persons responsible for development of our official Website.</p>
+              <div className='team-card'>
+                <img className='lead-photo' src='./assets/teams/webteam/abhishekdhanke.png'></img>
+                <p className='lead-name'>Abhishek Dhanke</p>
+                <p className='designation'>Web Team Head</p>
+                <div className='socials'>
+                  <a href='https://github.com/abhishekrd'><i className="fa-brands fa-github icons"></i></a>
+                                
+                  <a href='https://www.linkedin.com/in/abhishek-dhanke-226354216/'><i className="fa-brands fa-linkedin icons"></i></a>
+                </div>
+              </div>
             </div>
             <img src="./assets/web-home.png" alt="home" className='homeImg' />
           </div>

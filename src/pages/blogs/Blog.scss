@@ -23,17 +23,20 @@
         animation: gradient 10s ease infinite;
         background-size: 400% 400%;
         border-radius: 25px;
-        .inside{
+
+        .inside {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+
         .cod {
             font-size: 35px;
             font-family: 'Playfair Display', serif;
             color: white;
         }
-        .cod-check-button{
+
+        .cod-check-button {
             margin: 20px;
             border-radius: 25px;
             color: rgb(89, 0, 255);
@@ -47,11 +50,13 @@
             transition: 0.3s ease-in-out;
             background-image: linear-gradient(225deg, #ffffff, rgb(255, 255, 255));
             box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+
             &:hover {
                 cursor: pointer;
                 background-image: linear-gradient(225deg, #ffffff, rgb(255, 255, 255));
             }
         }
+
         img {
             width: 91px;
             height: 100px;
@@ -107,8 +112,10 @@
         background-color: white;
         margin: 20px;
         overflow: hidden;
+
         .blog-img {
             overflow: hidden;
+
             img {
                 border-top-left-radius: 12px;
                 border-top-right-radius: 12px;
@@ -118,30 +125,43 @@
                 transform: rotate(0) scale(1);
                 -webkit-transition: .3s ease;
                 transition: .3s ease;
-                &:hover {
-                    cursor: pointer;
-                    -webkit-transform: rotate(3deg) scale(1.1);
-                    transform: rotate(3deg) scale(1.1);
-                }
             }
-            
         }
-        @media screen and (max-width:770px){
+
+        .blog-title {
+            p {
+                color: #085ece;
+            }
+            &:hover{
+                cursor: pointer;
+                color: red;
+            }
+        }
+
+        &:hover>.blog-img>img {
+            -webkit-transform: rotate(3deg) scale(1.1);
+            transform: rotate(3deg) scale(1.1);
+        }
+
+        @media screen and (max-width:770px) {
             .blog-img {
                 overflow: hidden;
+
                 img {
                     -webkit-transform: none;
                     transform: none;
                     -webkit-transition: none;
                     transition: none;
+
                     &:hover {
                         cursor: pointer;
                         -webkit-transform: none;
-                        transform:none;
+                        transform: none;
                     }
                 }
             }
         }
+
         .blog-title {
             font-size: 18px;
             padding: 30px 30px 0 30px;

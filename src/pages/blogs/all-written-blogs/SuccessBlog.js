@@ -39,6 +39,9 @@ function SuccessBlog() {
             <p className='word-count'>
               871 words 4,911 characters
             </p>
+            <p className='read-time'>
+              <span>Read Time:</span> 3 min 29 sec
+            </p>
           </div>
           <div className='share'>
             <h4>If you liked it, make sure you share it !</h4>
@@ -73,14 +76,14 @@ function SuccessBlog() {
         </div>
       </section>
       <div className='mobile-share'>
-            <h4>If you liked it, make sure you share it !</h4>
-            <p>
-              <i className="fa-brands fa-twitter icons"></i>
-              <i className="fa-brands fa-facebook icons"></i>
-              <i className="fa-brands fa-instagram icons"></i>
-              <i className="fa-brands fa-telegram icons"></i>
-            </p>
-          </div>
+        <h4>If you liked it, make sure you share it !</h4>
+        <p>
+          <i className="fa-brands fa-twitter icons"></i>
+          <i className="fa-brands fa-facebook icons"></i>
+          <i className="fa-brands fa-instagram icons"></i>
+          <i className="fa-brands fa-telegram icons"></i>
+        </p>
+      </div>
       <Footer />
     </div>
   )

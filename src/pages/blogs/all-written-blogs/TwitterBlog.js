@@ -40,6 +40,9 @@ function TwitterBlog() {
                             <p className='word-count'>
                                 844 words 4,706 characters
                             </p>
+                            <p className='read-time'>
+                                <span>Read Time:</span> 3 min 22 sec
+                            </p>
                         </div>
                         <div className='share'>
                             <h4>If you liked it, make sure you share it !</h4>
@@ -63,10 +66,10 @@ function TwitterBlog() {
                             The success story of twitter dates back to the year 2007, back then and still today silicon valley was the booming tech hub of the world wherein venture capitals and investors used to look out to build their wealth by finding potential unicorns because it was such a boom land the media buzz was a huge driving force to get the update about the silicon valley. So, the broadcasting of news was only limited to giant media outlets. Due to this only, the media was in the position to decide what exactly is newsworthy, And while broadcasting the news the media used to decide what they wanted to show the world. And this is where the magic of Twitter came into the picture. So twitter first approached the founders and CEOs of the company and told them their entire idea. Slowly the founders started joining Twitter and soon enough it became the hub for founders to in touch with each other. Soon enough Twitter became the platform for the startup community. So, Twitter was like a medium of connection between people because of which all silicon valley entrepreneurs could know what exactly is happening in the valley without the media clutter.
                             <br />
                             <br />
-                            After that, in April 2007 Barack Obama saw the potential in Twitter and joined Twitter to use it as a tool for presidential elections. and this was done just because with the help of Twitter he could easily connect with people without the media clutter. And this is when twitter picked up speed due to the massive connections of Barack Obama millions of people started joining Twitter. Now Twitter is not the only social media platform there are numerous other platforms like youtube, Facebook, and Instagram then why did twitter succeed in the past 15 years that is because 
+                            After that, in April 2007 Barack Obama saw the potential in Twitter and joined Twitter to use it as a tool for presidential elections. and this was done just because with the help of Twitter he could easily connect with people without the media clutter. And this is when twitter picked up speed due to the massive connections of Barack Obama millions of people started joining Twitter. Now Twitter is not the only social media platform there are numerous other platforms like youtube, Facebook, and Instagram then why did twitter succeed in the past 15 years that is because
                             <br />
                             <br />
-                            1) user-driven features like hashtags have now become a standard norm for searching and posting on social media. 
+                            1) user-driven features like hashtags have now become a standard norm for searching and posting on social media.
                             <br />
                             <br />
                             2) They were specific in what they are doing which builds trust between people. In the year 2017, there was a natural disaster of hurricane in the Netherlands at that time all the emergency lines and communication channels were destroyed but people used Twitter to seek out help.  And this is how Twitter succeeded in building itself as a brand while stealing the thunder from Facebook.

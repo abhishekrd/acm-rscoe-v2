@@ -32,23 +32,23 @@ const Blog = () => {
 
 
           {/* SUCCESS BLOG ONE BLOG CARD */}
-          <div className="col-sm-12 col-md-6 col-lg-4 blog-post">
-            <div className="blog-img"> <img src="./assets/blog-images/success-blog-background.png" alt="img" /></div>
-            <div className="blog-title">
-              <Link to="/success-blog" style={{ textDecoration: "none" }}><p> Success- The path driven by passion</p></Link>
-            </div>
-            <div className="author">
-              <img className='author-img' src="./assets/teams/coreMembers/sahilk.jpg" alt="img" />
-              <div className="author-info">
-                <span>
-                  Sahil Kandhare
-                </span>
-                <p>
-                  7 Oct 2022
-                </p>
+            <div className="col-sm-12 col-md-6 col-lg-4 blog-post">
+              <div className="blog-img"> <img src="./assets/blog-images/success-blog-background.png" alt="img" /></div>
+              <div className="blog-title">
+                <Link to="/success-blog" style={{ textDecoration: "none" }}><p> Success- The path driven by passion</p></Link>
+              </div>
+              <div className="author">
+                <img className='author-img' src="./assets/teams/coreMembers/sahilk.jpg" alt="img" />
+                <div className="author-info">
+                  <span>
+                    Sahil Kandhare
+                  </span>
+                  <p>
+                    7 Oct 2022
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
 
 
@@ -65,7 +65,7 @@ const Blog = () => {
                   Sahil Kandhare
                 </span>
                 <p>
-                7 Oct 2022
+                  7 Oct 2022
                 </p>
               </div>
             </div>
@@ -120,6 +120,29 @@ const Blog = () => {
             <div className="blog-img"> <img src="./assets/blog-images/india-blog-background.png" alt="img" /></div>
             <div className="blog-title">
               <Link to="/india-blog" style={{ textDecoration: "none" }}><p>India 2047</p></Link>
+            </div>
+            <div className="author">
+              <img className='author-img' src="./assets/teams/coreMembers/sahilk.jpg" alt="img" />
+              <div className="author-info">
+                <span>
+                  Sahil Kandhare
+                </span>
+                <p>
+                  8 Oct 2022
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          {/* LOVE: A sensation that everyone feels,  yet is difficult to put into words. */}
+          <div className="col-sm-12 col-md-6 col-lg-4 blog-post">
+            <div className="blog-img"> <img src="./assets/blog-images/love-blog-background.png" alt="img" /></div>
+            <div className="blog-title">
+              <Link to="/love-blog" style={{ textDecoration: "none" }}><p>LOVE: A sensation that everyone feels,  yet is difficult to put into words.</p></Link>
             </div>
             <div className="author">
               <img className='author-img' src="./assets/teams/coreMembers/sahilk.jpg" alt="img" />

@@ -40,6 +40,9 @@ function IndiaBlog() {
                             <p className='word-count'>
                                 495 words 3,030 characters
                             </p>
+                            <p className="read-time">
+                                <span>Read Time:</span> 1 min 58 sec
+                            </p>
                         </div>
                         <div className='share'>
                             <h4>If you liked it, make sure you share it !</h4>

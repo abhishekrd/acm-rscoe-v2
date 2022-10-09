@@ -40,6 +40,9 @@ function GenderBlog() {
                             <p className='word-count'>
                                 458 words 2,714 characters
                             </p>
+                            <p className="read-time">
+                                <span>Read Time:</span> 2 min
+                            </p>
                         </div>
                         <div className='share'>
                             <h4>If you liked it, make sure you share it !</h4>

@@ -40,6 +40,9 @@ function DislikedBlog() {
                             <p className='word-count'>
                                 492 words 2,689 characters
                             </p>
+                            <p className='read-time'>
+                                <span>Read Time:</span> 2 min
+                            </p>
                         </div>
                         <div className='share'>
                             <h4>If you liked it, make sure you share it !</h4>

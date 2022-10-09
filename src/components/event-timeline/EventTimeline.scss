@@ -1,0 +1,65 @@
+.timeLine-body {
+    background: #e7e7f0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+
+    h3 {
+        font-size: 24px;
+        padding-top: 0.25em;
+    }
+
+    .vertical-timeline-element-content {
+        box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+            0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+        padding: 2em 3em !important;
+    }
+
+    .type {
+        padding: 10px 10px 10px 0;
+        color: #0551af;
+    }
+
+    .date {
+        color: rgb(201, 251, 255);
+    }
+
+    #description {
+        margin: 1.5em 0 2em 0;
+    }
+
+    .button {
+        text-decoration: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        
+    }
+
+    .workButton {
+        color: black;
+        transition: 0.3s ease-in-out;
+        background-image: linear-gradient(135deg, #a8ff78, #78ffd6 150%);
+        box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+        &:hover {
+            background-image: linear-gradient(135deg, #9ef072, #6ee2bf 150%);
+        }
+    }
+
+    .schoolButton {
+        color: white;
+        background-image: linear-gradient(135deg, #ee0979, #ff6a00 150%);
+        box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+        &:hover {
+            background-image: linear-gradient(135deg, #c70563, #a54501  150%);
+        }
+    }
+
+    @media only screen and (max-width: 1700px) {
+        .vertical-timeline-element-date {
+            display: block !important;
+            float: none !important;
+            color: rgb(44, 44, 44);
+            margin-top: 1.5em;
+        }
+    }
+}

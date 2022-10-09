@@ -13,7 +13,7 @@ const WebTeam = () => {
               <h1>WEB TEAM</h1>
               <p className='info'>Web team is a group of persons responsible for development of web site.</p>
               <span>LEAD</span>
-              <p><a style={{ textDecoration: "none" }} href="https://github.com/abhishekrd" target="_blank"><div className='border'><div className='lead-icon'><img src="./assets/teams/webteam/abhishekdhanke.png" alt="head-img" /></div> <span> Abhishek Dhanke</span></div> </a></p>
+              <p><a style={{ textDecoration: "none" }} href="https://github.com/abhishekrd" target="_blank"><div className='border'><div className='lead-icon'><img src="./assets/teams/webteam/abhishek-dhanke-head.png" alt="head-img" /></div> <span> Abhishek Dhanke</span></div> </a></p>
             </div>
             <img src="./assets/web-home.png" alt="home" className='homeImg' />
           </div>

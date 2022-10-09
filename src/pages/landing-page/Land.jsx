@@ -8,7 +8,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 const Land = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 })
+    Aos.init({ duration: 1000 })
   }, []);
   return (
     <div className='home'>

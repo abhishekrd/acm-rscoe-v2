@@ -1,14 +1,14 @@
-import React , {useEffect} from 'react'
+import React ,{useEffect} from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import { Link } from 'react-router-dom'
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import Aos from 'aos';
+import "aos/dist/aos.css"
 import "./Blog.scss"
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 const Blog = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 })
+    Aos.init({ duration: 1500 });
   }, []);
   return (
     <div>
@@ -17,7 +17,7 @@ const Blog = () => {
         <img className='display-img' src="./assets/blog-home.png" alt="img" />
       </section>
       <section className='concept-of-day'>
-        <div data-aos="flip-right" data-aos-duration="800" className='concept-pop'>
+        <div data-aos="flip-right" className='concept-pop'>
           <div>
             <p className='cod' >Concept Of The Day</p>
             <div className='inside'>
@@ -28,7 +28,7 @@ const Blog = () => {
         </div>
       </section>
       <section className="blogs">
-        <div data-aos="zoom-in" className='title'>
+        <div data-aos="zoom-out" className='title'>
           Blogs
           <hr />
         </div>

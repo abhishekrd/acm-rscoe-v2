@@ -13,7 +13,7 @@ const Land = () => {
         <div className='Content'>
           <div className='left-content'>
             <div className='head-line'>
-              A Team of <span className="head-line2">Enthusiastic</span> and <span className="head-line2">Passionate </span>
+              A Team of <br /> <span className="head-line2">Enthusiastic</span> and <span className="head-line2">Passionate </span>
               <ul className="dynamic-txt">
                 <li><span id='word1'>ENGINEERS</span></li>
                 <li><span id='word2'>STUDENTS</span></li>

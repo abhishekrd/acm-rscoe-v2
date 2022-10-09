@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Land.scss"
 import Navbar from '../../components/navbar/Navbar'
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Footer from '../../components/footer/Footer'
 import { Link } from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Land = () => {
-
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, []);
   return (
     <div className='home'>
       <Navbar />
@@ -39,12 +43,12 @@ const Land = () => {
 
       <section className="teams">
         <div className="container">
-          <div className='title'>
+          <div data-aos="zoom-in" className='title'>
             Our Teams
             <hr />
           </div>
           <div className='cardContainer'>
-            <div className="row">
+            <div data-aos="zoom-in-up" className="row">
               <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/content.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
@@ -57,7 +61,7 @@ const Land = () => {
                 <img className='team-img' src="./assets/design.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
-                <Link to="/design-team"><button className='view-btn'>MEET </button></Link>
+                  <Link to="/design-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
               </div>
@@ -65,14 +69,14 @@ const Land = () => {
                 <img className='team-img' src="./assets/doc.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
-                <Link to="/documentation-team"><button className='view-btn'>MEET </button></Link>
+                  <Link to="/documentation-team"><button className='view-btn'>MEET </button></Link>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/publicity.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
-                <Link to="/publicity-team"><button className='view-btn'>MEET </button></Link>
+                  <Link to="/publicity-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
               </div>
@@ -80,7 +84,7 @@ const Land = () => {
                 <img className='team-img' src="./assets/web.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
-                <Link to="/web-team"><button className='view-btn'>MEET </button></Link>
+                  <Link to="/web-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
               </div>
@@ -88,7 +92,7 @@ const Land = () => {
                 <img className='team-img' src="./assets/soc.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
-                <Link to="/social-team"><button className='view-btn'>MEET </button></Link>
+                  <Link to="/social-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
               </div>
@@ -97,13 +101,16 @@ const Land = () => {
         </div>
       </section>
 
+
       <section className="event">
         <div className="container">
-          <div className='title'>
+          <div data-aos="zoom-in" className='title'>
             Our Latest Works
             <hr />
           </div>
-          <div className='work-description'>
+
+          {/* Ganesh-Event */}
+          <div data-aos="zoom-in-right" className='work-description'>
             <div className="event-img">
               <video className='vid' autoPlay loop muted src="./assets/ganesh.mp4"></video>
             </div>
@@ -121,7 +128,9 @@ const Land = () => {
             </div>
           </div>
 
-          <div className='work-description'>
+
+          {/* Eucation & Career */}
+          <div data-aos="zoom-in-left" className='work-description'>
             <div className="event-img">
               <div className='event-info'>
                 Eucation & Career
@@ -139,7 +148,9 @@ const Land = () => {
 
           </div>
 
-          <div className='work-description'>
+
+          {/* AR/VR */}
+          <div data-aos="zoom-in-right" className='work-description'>
             <div className="event-img">
               <video className='vid' autoPlay loop muted src="./assets/arVr.mp4"></video>
             </div>
@@ -160,7 +171,7 @@ const Land = () => {
           </button>
         </div>
       </section>
-      <Footer />
+        <Footer />
     </div>
   )
 }

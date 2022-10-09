@@ -6,9 +6,15 @@ import "./Event.scss"
 const Event = () => {
   return (
     <div>
-    <Navbar/>
-    <EventTimeline />
-    <Footer/>
+      <Navbar />
+      <section className="event-container">
+        <div className="front-video">
+          <video className='vid' autoPlay loop muted src="./assets/event-page-bg.mp4"></video>
+        </div>
+        <EventTimeline />
+      </section>
+
+      <Footer />
     </div>
   )
 }

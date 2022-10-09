@@ -1,5 +1,17 @@
 .timeLine-body {
-    background: #e7e7f0;
+    .title {
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        text-align: center !important;
+        margin-bottom: 70px;
+        hr {
+            margin: 15px;
+            width: 5%;
+            border-top: 6px dotted #011447;
+            margin: auto;
+        }
+    }
+    background: #e9eaf2;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: rgb(53, 53, 53);
@@ -32,11 +44,10 @@
         text-decoration: none;
         padding: 0.5em 1em;
         border-radius: 5px;
-        
+        color: black;
     }
 
     .workButton {
-        color: black;
         transition: 0.3s ease-in-out;
         background-image: linear-gradient(135deg, #a8ff78, #78ffd6 150%);
         box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
@@ -47,10 +58,10 @@
 
     .schoolButton {
         color: white;
-        background-image: linear-gradient(135deg, #ee0979, #ff6a00 150%);
+        background-image: linear-gradient(135deg, #f9c74f, #ff6a00 150%);
         box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
         &:hover {
-            background-image: linear-gradient(135deg, #c70563, #a54501  150%);
+            background-image: linear-gradient(135deg, #f9c74f, #d05802  150%);
         }
     }
 

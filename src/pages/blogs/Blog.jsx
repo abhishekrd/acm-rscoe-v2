@@ -17,7 +17,7 @@ const Blog = () => {
         <img className='display-img' src="./assets/blog-home.png" alt="img" />
       </section>
       <section className='concept-of-day'>
-        <div data-aos="flip-right" data-aos-duration="800"className='concept-pop'>
+        <div data-aos="flip-right" data-aos-duration="800" className='concept-pop'>
           <div>
             <p className='cod' >Concept Of The Day</p>
             <div className='inside'>

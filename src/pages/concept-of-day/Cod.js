@@ -1,13 +1,8 @@
-import React ,{useEffect}from 'react'
+import React from 'react'
 import "./Cod.scss"
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 function Cod() {
-    useEffect(() => {
-        Aos.init({ duration: 2000 })
-      }, []);
     return (
         <div>
             <Navbar />
@@ -15,11 +10,11 @@ function Cod() {
                 <img className='display-img' src="./assets/concept-home.png" alt="img" />
             </section>
             <section className='concept-container'>
-                <div data-aos="zoom-in" className='title'>
+                <div className='title'>
                     Concept
                     <hr />
                 </div>
-                <div data-aos="fade-up" data-aos-duration="3000" className="concept-card">
+                <div  className="concept-card">
                     <h1 className='concept-title'>Tree Traversals (Inorder, Preorder ,Postorder and Levelorder)</h1>
                     <span className='difficulty'>Difficulty: <span className='lvl-easy'>Easy</span> </span>
                     <span className='difficulty'>• Date: <span>10 oct 2022</span> </span>

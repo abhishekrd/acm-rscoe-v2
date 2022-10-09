@@ -1,15 +1,9 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import "./Footer.scss"
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 const Footer = () => {
-    useEffect(() => {
-        Aos.init({ duration: 1000 });
-        Aos.refresh();
-      }, []);
     return (
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div>
             <section className='bottom'>
                 <div className='footer-container'>
                     <h2>Want to Connect ?</h2>
